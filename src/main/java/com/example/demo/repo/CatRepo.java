@@ -11,4 +11,6 @@ import com.example.demo.domain.Cat;
 public interface CatRepo extends JpaRepository<Cat, Long> {
 	List<Cat> findByName(String name);
 
+	
+
 }
